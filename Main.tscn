@@ -1,9 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://d214oj5fj3u2e"]
+[gd_scene load_steps=4 format=3 uid="uid://d214oj5fj3u2e"]
 
+[ext_resource type="Script" uid="uid://dbeq0i7i5t2p2" path="res://Card.gd" id="1_r0du0"]
 [ext_resource type="Script" uid="uid://cc0ckhv0uqkxg" path="res://CardManager.gd" id="1_uu6xs"]
 [ext_resource type="PackedScene" uid="uid://hxc1bgu3hpdy" path="res://Card.tscn" id="2_r0du0"]
 
 [node name="Main" type="Node2D"]
+script = ExtResource("1_r0du0")
 
 [node name="CardManager" type="Node2D" parent="."]
 script = ExtResource("1_uu6xs")
