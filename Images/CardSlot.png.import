@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b8ie3o8iou6rb"
-path="res://.godot/imported/genshinCardbackAnemo.png-85b42e48dc62ecc4499d582b405b033b.ctex"
+uid="uid://dk7c766jvxas3"
+path="res://.godot/imported/CardSlot.png-c0dc568e7860018bb537bffd6b5cc557.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://genshinCardbackAnemo.png"
-dest_files=["res://.godot/imported/genshinCardbackAnemo.png-85b42e48dc62ecc4499d582b405b033b.ctex"]
+source_file="res://Images/CardSlot.png"
+dest_files=["res://.godot/imported/CardSlot.png-c0dc568e7860018bb537bffd6b5cc557.ctex"]
 
 [params]
 

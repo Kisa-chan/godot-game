@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b2rbe1xil0ed8"
-path="res://.godot/imported/genshinCardbackDendro.png-95dc4a656085d3b2b99f445337faf991.ctex"
+path="res://.godot/imported/genshinCardbackDendro.png-3d0d765f75dbbb0142f5820e3ea740ff.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://genshinCardbackDendro.png"
-dest_files=["res://.godot/imported/genshinCardbackDendro.png-95dc4a656085d3b2b99f445337faf991.ctex"]
+source_file="res://Images/genshinCardbackDendro.png"
+dest_files=["res://.godot/imported/genshinCardbackDendro.png-3d0d765f75dbbb0142f5820e3ea740ff.ctex"]
 
 [params]
 
