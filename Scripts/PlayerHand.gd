@@ -1,6 +1,5 @@
 extends Node2D
 
-const HAND_COUNT = 5
 const CARD_SCENE_PATH = "res://Scenes/Card.tscn"
 const CARD_WIDTH = 200
 const HAND_Y_POSITION = 700
@@ -10,17 +9,13 @@ var center_screen_x
 
 func _ready() -> void:
 	center_screen_x = get_viewport().size.x / 2
-	
-	var card_scene = preload(CARD_SCENE_PATH)
-	for i in range(HAND_COUNT):
-		var new_card = card_scene.instantiate()
-		$"../CardManager".add_child(new_card)
-		new_card.name = "Card"
-		add_card_to_hand(new_card)
 
 func add_card_to_hand(card):
-	player_hand.insert(0,card)
-	update_hand_positions()
+	if card not in player_hand:
+		player_hand.insert(0,card)
+		update_hand_positions()
+	else: 
+		animate_card_to_position(card,card.starting_position)
 
 func update_hand_positions():
 	for i in range(player_hand.size()):
@@ -37,4 +32,9 @@ func calculate_card_position(index):
 func animate_card_to_position(card, new_position):
 	var tween = get_tree().create_tween()
 	tween.tween_property(card, "position", new_position, 0.1)
+	
+func remove_card_from_hand(card):
+	if card in player_hand:
+		player_hand.erase(card)
+		update_hand_positions()
 	
