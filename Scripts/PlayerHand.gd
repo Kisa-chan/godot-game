@@ -1,6 +1,5 @@
 extends Node2D
 
-const CARD_SCENE_PATH = "res://Scenes/Card.tscn"
 const CARD_WIDTH = 200
 const HAND_Y_POSITION = 700
 

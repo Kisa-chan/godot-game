@@ -19,17 +19,6 @@ func _process(delta: float) -> void:
 		card_being_dragged.position = Vector2(clamp(mouse_pos.x,0,screen_size.x),
 		clamp(mouse_pos.y,0,screen_size.y))
 
-#func _input(event):
-	#if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT:
-		#if event.pressed:
-			## Raycast check for card 
-			#var card = raycast_check_card()
-			#if card:
-				#start_drag(card)
-		#else:
-			#if card_being_dragged:
-				#finish_drag()
-
 func start_drag(card):
 	card_being_dragged = card
 	card.scale = Vector2(1,1)
@@ -56,7 +45,8 @@ func on_hoverd_over_card(card):
 		highlight_card(card,true)
 
 func on_left_click_released():
-	print("Card manager left mouse released signal")
+	if card_being_dragged:
+		finish_drag()
 
 func on_hoverd_off_card(card):
 	if !card_being_dragged:
