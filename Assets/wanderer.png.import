@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b8ie3o8iou6rb"
-path="res://.godot/imported/genshinCardbackAnemo.png-613805fade14eee3f0cbf059122dac1c.ctex"
+uid="uid://cpql7gd3bwpp2"
+path="res://.godot/imported/wanderer.png-b0238611e5b13fc86ee7e5a4713b91c3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Images/genshinCardbackAnemo.png"
-dest_files=["res://.godot/imported/genshinCardbackAnemo.png-613805fade14eee3f0cbf059122dac1c.ctex"]
+source_file="res://Assets/wanderer.png"
+dest_files=["res://.godot/imported/wanderer.png-b0238611e5b13fc86ee7e5a4713b91c3.ctex"]
 
 [params]
 

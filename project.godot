@@ -13,9 +13,10 @@ config_version=5
 config/name="Nuevo Proyecto de Juego"
 run/main_scene="uid://d214oj5fj3u2e"
 config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://Assets/icon.svg"
 
 [display]
 
-window/size/viewport_width=1400
+window/size/viewport_width=1200
 window/size/viewport_height=640
+window/stretch/scale=0.75
